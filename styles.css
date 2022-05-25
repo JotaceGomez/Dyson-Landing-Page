@@ -1,0 +1,267 @@
+.bgBodyColor {
+    background-color: #F2F2F2;
+}
+
+body {
+    background-color: #F2F2F2;
+}
+
+.container {
+    max-width: 1200px !important;
+}
+
+.navbar {
+    min-height: 75px;
+}
+
+.navbarFont {
+    font-family: 'Roboto';
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.footerFont {
+    font-family: 'Roboto';
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: end;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.marginBottom75 {
+    margin-bottom: 75px;
+}
+
+.marginTop75 {
+    margin-top: 75px;
+}
+
+.paddingTop75 {
+    padding-top: 75px;
+}
+
+.title1 {
+    font-family: "Playfair Display";
+    font-size: 66px;
+    color: #CD499C;
+    font-weight: bold;
+    text-align: left;
+}
+
+.title2 {
+    font-family: "Playfair Display";
+    font-size: 51px;
+    color: #000000;
+    text-align: left;
+}
+
+.imgNoPath1 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.greenCircle {
+    width: 207px;
+    height: 207px;
+    background-color: #42F577;
+    border-radius: 50%;
+    box-shadow: 0px 3px 42px #00000029;
+    position: relative;
+    right: 40px;
+    bottom: 200px;
+    flex-wrap: wrap;
+}
+
+.oldPrice {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 36px;
+    color: black;
+    text-align: center;
+    text-decoration: line-through;
+    position: relative;
+    top: 20px;
+}
+
+.newPrice {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 89px;
+    color: #CD499C;
+    text-align: center;
+}
+
+.whiteBoxMedia {
+    width: auto;
+}
+
+.whiteBox {
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 30px;
+    box-shadow: 0px 3px 38px #00000029;
+    padding: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.whiteBoxTitle {
+    font-family: "Roboto";
+    font-size: 29px;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.ctaButton {
+    font-family: "Roboto";
+    font-size: 29px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background: transparent linear-gradient(90deg, #B74F8E 0%, #88235F 100%) 0% 0% no-repeat padding-box;
+    border-radius: 32px;
+    border: none;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    min-width: 150px;
+    margin: 10px;
+}
+
+.ctaButton:hover {
+    background: transparent linear-gradient(90deg, #d067a6 0%, #b63d86 100%) 0% 0% no-repeat padding-box;
+}
+
+.inputBox {
+    width: 100%;
+    border-style: inset;
+    border: 3px solid #c8c8c8;
+    height: 55px;
+    margin-top: 12px;
+}
+
+.segoeStyle {
+    font-family: "Segoe UI";
+    font-size: 20px;
+    color: #707070;
+    text-align: left;
+}
+
+.verificationBox {
+    width: 100%;
+    margin-top: 3px;
+    border-style: inset;
+    border: 3px solid #707070;
+    height: 20px;
+}
+
+.stepFont {
+    font-family: "Roboto";
+    font-size: 22px;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+}
+
+.noPathsOthers {
+    height: auto;
+    width: auto;
+}
+
+.EaseInOut {
+    transition: all 0.3s ease-in-out;
+}
+
+.EaseInOut:hover {
+    transform: scale(1.1);
+}
+
+.navTextAnimation {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.navTextAnimation:hover,
+.navTextAnimation:focus {
+    background-size: 100% 2px;
+}
+
+@media only screen and (max-width: 992px) {
+    .greenCircle {
+        max-height: 157px;
+        max-width: 157px;
+        position: relative;
+        right: 40px;
+        top: 80px;
+    }
+
+    .oldPrice {
+        font-size: 26px;
+    }
+
+    .newPrice {
+        font-size: 69px;
+    }
+
+    .verificationBox {
+        height: 40px;
+        width: 40px;
+    }
+
+    .imgNoPath1 {
+        display: flex;
+        justify-content: end;
+        align-items: start;
+    }
+
+    .whiteBoxMedia {
+        margin-right: 80px;
+        min-width: 450px !important;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .greenCircle {
+        height: 107px;
+        width: 107px;
+        min-width: 107px;
+    }
+
+    .oldPrice {
+        font-size: 20px;
+    }
+
+    .newPrice {
+        font-size: 49px;
+    }
+
+    .title1 {
+        font-size: 50px;
+    }
+
+    .title2 {
+        font-size: 40px;
+    }
+
+    .noPathsOthers {
+        max-height: 200px;
+        width: auto;
+    }
+
+    .imgNoPath1 {
+        margin-left: 30px;
+    }
+}
